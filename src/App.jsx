@@ -71,7 +71,7 @@ export default function App() {
 
       if (L > 0 && L <= 100 && S >= 0.001 && S <= 0.2) {
         const slopes = [];
-        const numSlopes = 100;
+        const numSlopes = 200;
         for (let j = 0; j < numSlopes; j++) {
           const randomSlope = (0.001 + (0.2 - 0.001) * Math.random()).toFixed(3);
           slopes.push(randomSlope);
@@ -108,7 +108,7 @@ export default function App() {
       //   slopes.push(j);
       //   // console.log(`Added slope: ${j}`); // Logging the slope values
       // }
-      const numSlopes = 100;
+      const numSlopes = 200;
         for (let j = 0; j < numSlopes; j++) {
           const randomSlope = (0.001 + (0.2 - 0.001) * Math.random()).toFixed(3);
           slopes.push(randomSlope);
